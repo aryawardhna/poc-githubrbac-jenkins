@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("aryawardhna/poc-githubrbac-jenkins")
+        app = docker.build("releaseworks/hellonode")
     }
 
     stage('Test image') {
