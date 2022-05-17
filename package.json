@@ -1,21 +1,23 @@
 {
-  "name": "getintodevops-hellonode",
+  "name": "aryawardhna-poc-githubrbac-jenkins",
   "version": "1.0.0",
   "description": "A Hello World HTTP server",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "node main.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/getintodevops/hellonode/"
+    "url": "https://github.com/aryawardhna/poc-githubrbac-jenkins/"
   },
   "keywords": [
     "node",
     "docker",
     "dockerfile"
   ],
-  "author": "miiro@getintodevops.com",
-  "license": "ISC"
+  "author": "academy@release.works",
+  "license": "ISC",
+  "devDependencies": { "test": ">=0.6.0" }
 }
+
